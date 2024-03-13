@@ -26,7 +26,7 @@ const CardDemo: React.FC<CardProps> = ({ className, ...props }) => {
             <AvatarImage src="/avatar-jessica.jpeg" />
             <AvatarFallback>CN</AvatarFallback>
           </Avatar>
-          <CardTitle className="font-semibold text-2xl">
+          <CardTitle className="font-semibold text-2xl text-white">
             Jessica Randall
           </CardTitle>
           <CardDescription className="text-lime-400 font-semibold text-xs">
