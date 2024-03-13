@@ -13,7 +13,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 type CardDemoProps = React.ComponentProps<typeof Card>;
 
-export function CardDemo({ className, ...props }: CardDemoProps) {
+export default function CardDemo({ className, ...props }: CardDemoProps) {
   return (
     <div className="flex justify-center items-center min-h-[100vh]">
       <Card
