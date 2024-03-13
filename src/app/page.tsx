@@ -9,10 +9,11 @@ import {
 } from "@/components/ui/card";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import React from "react";
 
 type CardProps = React.ComponentProps<typeof Card>;
 
-export default function CardDemo({ className, ...props }: CardProps) {
+const Page: React.FC<CardProps> = ({ className, ...props }) => {
   return (
     <div className="flex justify-center items-center min-h-[100vh]">
       <Card
@@ -57,3 +58,4 @@ export default function CardDemo({ className, ...props }: CardProps) {
     </div>
   );
 }
+export default Page;
